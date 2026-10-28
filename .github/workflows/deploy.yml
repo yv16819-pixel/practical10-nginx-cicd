@@ -17,11 +17,11 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.YASHRAJSINH1224 }}
-          password: ${{ secrets.IG3dbZSpUsFq2d0OjsmgHMvF1A0 }}
+          password: ${{ secrets.dckr_pat_IG3dbZSpUsFq2d0OjsmgHMvF1A0 }}
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v6
         with:
           context: .
           push: true
-          tags: yashrajsinh1224/practical10-nginx:latest
+          tags: YASHRAJSINH1224/practical10-nginx:latest
