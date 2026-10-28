@@ -1,0 +1,1 @@
+# practical10-nginx-cicd
